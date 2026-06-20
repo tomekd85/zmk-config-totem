@@ -87,7 +87,7 @@
             bindings = <
             &kp Q           &kp W       &kp E         &kp R               &kp T        &kp Y    &kp U                &kp I        &kp O                 &kp P
             &mt LEFT_ALT A  &mt LGUI S  &mt LSHIFT D  &mt LEFT_CONTROL F  &kp G        &kp H    &mt RIGHT_CONTROL J  &mt RSHFT K  &mt K_CONTEXT_MENU L  &mt RIGHT_ALT SEMICOLON
-&kp ESCAPE  &kp Z           &kp X       &kp C         &kp V               &kp B        &kp N    &kp M                &kp COMMA    &kp DOT               &kp FSLH                 &kp BSLH
+&kp ESCAPE  &kp Z           &kp X       &kp C         &kp V               &kp B        &kp N    &kp M                &kp COMMA    &kp DOT               &kp FSLH                 &kp SQT
                                         &kp DEL       &lt NAV TAB         &kp SPACE    &kp RET  &lt SYM ESC          &kp BSPC
             >;
         };
@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans    &trans     &trans         &trans   &trans       &trans    &trans     &trans        &trans     &trans
-        &kp HOME  &kp PG_UP  &kp PAGE_DOWN  &kp END  &kp EQUAL    &kp LEFT  &kp DOWN   &kp UP_ARROW  &kp RIGHT  &trans
-&trans  &trans    &trans     &kp CAPS       &trans   &trans       &trans    &trans     &trans        &trans     &trans  &trans
-                             &trans         &trans   &trans       &mo ADJ   &kp KP_N0  &trans
+        &trans    &trans           &trans         &trans   &trans       &trans    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans      &trans
+        &kp HOME  &kp PG_UP        &kp PAGE_DOWN  &kp END  &kp EQUAL    &kp LEFT  &kp DOWN              &kp UP_ARROW          &kp RIGHT   &trans
+&trans  &trans    &kp PRINTSCREEN  &kp CAPS       &trans   &trans       &kp C_PP  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp C_PREV  &kp C_NEXT  &trans
+                                   &trans         &trans   &trans       &mo ADJ   &kp KP_N0             &trans
             >;
         };
 
@@ -137,10 +137,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET     &kp AMPS      &kp ASTRK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp N7        &kp N8      &kp N9                &kp N0
-&kp GRAVE  &kp RA(F18)   &kp RA(F19)   &trans        &trans        &trans          &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT            &kp BSLH               &trans
-                                       &trans        &gif          &mo ADJ         &trans        &kp C_PP      &trans
+           &kp EXCL      &kp AT        &kp HASH      &kp DLLR        &kp PRCNT           &kp CARET          &kp AMPS         &kp ASTRK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5        &kp NUMBER_6       &kp N7           &kp N8      &kp N9                &kp N0
+&kp GRAVE  &kp TILDE     &kp RA(F19)   &trans        &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp C_PREV  &kp C_NEXT            &kp BSLH               &trans
+                                       &trans        &gif            &mo ADJ             &trans             &kp C_PP         &trans
             >;
         };
 
