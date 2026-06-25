@@ -137,10 +137,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp EXCL      &kp AT        &kp HASH      &kp DLLR        &kp PRCNT           &kp CARET          &kp AMPS         &kp ASTRK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5        &kp NUMBER_6       &kp N7           &kp N8      &kp N9                &kp N0
-&kp GRAVE  &kp TILDE     &kp RA(F19)   &trans        &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp C_PREV  &kp C_NEXT            &kp BSLH               &trans
-                                       &trans        &gif            &mo ADJ             &trans             &kp C_PP         &trans
+           &kp EXCL        &kp AT           &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET         &kp AMPS           &kp ASTRK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+           &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6      &kp N7             &kp N8      &kp N9                &kp N0
+&kp GRAVE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PLUS      &kp MINUS     &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp C_PREV  &kp C_NEXT            &kp BSLH               &trans
+                                            &trans        &gif          &mo ADJ         &trans            &kp C_PP           &trans
             >;
         };
 
