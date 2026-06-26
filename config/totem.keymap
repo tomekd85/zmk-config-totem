@@ -88,7 +88,7 @@
             &mt LEFT_GUI Q  &mt LALT W  &lt 2 E              &lt 1 R             &kp T        &kp Y          &lt 1 U              &lt 2 LS(I)  &kp O    &mt K_CMENU P
             &lt 2 A         &lt 1 S     &mt LSHIFT D         &mt LEFT_CONTROL F  &kp G        &kp H          &mt RIGHT_CONTROL J  &mt RSHFT K  &lt 1 L  &lt 2 SEMICOLON
 &kp ESCAPE  &kp Z           &kp X       &kp C                &kp V               &kp B        &kp N          &kp M                &kp COMMA    &kp DOT  &kp FSLH         &kp SQT
-                                        &mt LEFT_ALT DELETE  &kp TAB             &kp SPACE    &kp RIGHT_ALT  &kp BSPC             &kp ENTER
+                                        &mt LEFT_ALT DELETE  &lt 2 TAB           &kp SPACE    &kp RIGHT_ALT  &lt 1 BSPC           &kp ENTER
             >;
         };
 
@@ -114,7 +114,7 @@
         &trans    &trans           &trans     &trans            &trans       &trans    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans     &trans
         &kp LALT  &kp LEFT_GUI     &kp LSHFT  &kp LEFT_CONTROL  &kp EQUAL    &kp LEFT  &kp DOWN              &kp UP_ARROW          &kp RIGHT  &trans
 &trans  &trans    &kp PRINTSCREEN  &kp CAPS   &trans            &trans       &kp HOME  &kp PG_DN             &kp PG_UP             &kp END    &trans  &trans
-                                   &trans     &trans            &trans       &mo ADJ   &kp KP_N0             &trans
+                                   &trans     &trans            &mo 3        &trans    &kp KP_N0             &trans
             >;
         };
 
@@ -140,7 +140,7 @@
            &kp EXCL        &kp AT           &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET         &kp AMPS           &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
            &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6      &kp N7             &kp N8     &kp N9                &kp N0
 &kp GRAVE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PLUS      &kp MINUS     &kp EQUAL       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &trans                &kp BSLH               &trans
-                                            &trans        &gif          &mo ADJ         &trans            &kp C_PP           &trans
+                                            &trans        &gif          &trans          &mo 3             &trans             &trans
             >;
         };
 
