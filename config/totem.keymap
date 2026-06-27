@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans    &trans           &trans     &trans            &trans       &trans    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans     &trans
-        &kp LALT  &kp LEFT_GUI     &kp LSHFT  &kp LEFT_CONTROL  &kp EQUAL    &kp LEFT  &kp DOWN              &kp UP_ARROW          &kp RIGHT  &trans
-&trans  &trans    &kp PRINTSCREEN  &kp CAPS   &trans            &trans       &kp HOME  &kp PG_DN             &kp PG_UP             &kp END    &trans  &trans
-                                   &trans     &trans            &mo 3        &trans    &kp KP_N0             &trans
+        &trans    &trans           &trans      &trans            &trans       &trans    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans     &trans
+        &kp LALT  &kp LEFT_GUI     &kp LSHFT   &kp LEFT_CONTROL  &kp EQUAL    &kp LEFT  &kp DOWN              &kp UP_ARROW          &kp RIGHT  &trans
+&trans  &trans    &kp PRINTSCREEN  &kp CAPS    &trans            &trans       &kp HOME  &kp PG_DN             &kp PG_UP             &kp END    &trans  &trans
+                                   &kp DELETE  &kp BACKSPACE     &mo 3        &trans    &trans                &trans
             >;
         };
 
