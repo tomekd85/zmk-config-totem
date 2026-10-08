@@ -30,6 +30,16 @@
 };
 
 / {
+    behaviors {
+        lt_thumb: lt_thumb {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&kp>;
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -93,7 +103,7 @@
             &mt LEFT_GUI Q  &mt LALT W  &lt 2 E              &lt 1 R             &kp T        &kp Y          &lt 1 U              &lt 2 I      &kp O    &mt K_CMENU P
             &lt 2 A         &lt 1 S     &mt LSHIFT D         &mt LEFT_CONTROL F  &kp G        &kp H          &mt RIGHT_CONTROL J  &mt RSHFT K  &lt 1 L  &lt 2 SEMICOLON
 &kp ESCAPE  &kp Z           &kp X       &kp C                &kp V               &kp B        &kp N          &kp M                &kp COMMA    &kp DOT  &kp FSLH         &kp SQT
-                                        &mt LEFT_ALT DELETE  &lt 2 TAB           &kp SPACE    &kp RIGHT_ALT  &lt 1 BSPC           &kp ENTER
+                                        &mt LEFT_ALT DELETE  &lt_thumb SYM TAB   &kp SPACE    &kp RIGHT_ALT  &lt_thumb NAV BSPC   &kp ENTER
             >;
         };
 
