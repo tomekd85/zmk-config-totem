@@ -126,7 +126,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans    &trans           &trans      &trans            &trans       &trans    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans     &trans
+        &kp C_VOL_DN   &kp C_VOL_UP     &kp C_PP    &kp C_PREV        &kp C_NEXT       &trans    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans     &trans
         &kp LALT  &kp LEFT_GUI     &kp LSHFT   &kp LEFT_CONTROL  &kp EQUAL    &kp LEFT  &kp DOWN              &kp UP_ARROW          &kp RIGHT  &trans
 &trans  &trans    &kp PRINTSCREEN  &kp CAPS    &trans            &trans       &kp HOME  &kp PG_UP             &kp PG_DN             &kp END    &trans  &trans
                                    &kp DELETE  &kp BACKSPACE     &mo 3        &trans    &trans                &trans
